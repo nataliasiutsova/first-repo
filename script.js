@@ -5,7 +5,7 @@ function sum(c, f) {
   let v = c + f;
   return v;
 }
-console.log(sum(3, 5));
+console.log(sum(5, 5));
 
 // ДЗ 1.4
 
