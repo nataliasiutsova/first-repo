@@ -12,16 +12,15 @@ The **git fetch** command downloads commits, files, and refs from a remote repos
 
 1. `git fetch <remote>`
 
-    Fetch all of the branches from the remote repository.
+   Fetch all of the branches from the remote repository.
 
 2. `git fetch <remote> <branch>`
 
-    Same as the above command, but only fetch the specified branch.
+   Same as the above command, but only fetch the specified branch.
 
 3. `git fetch --all`
 
-    A power move which fetches all registered remote repo and their branches.
-
+   A power move which fetches all registered remote repo and their branches.
 
 ## GIT PULL
 
@@ -33,16 +32,18 @@ The **git pull** command is the more aggressive alternative; it will download th
 
 1. `git pull <remote>`
 
-    Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy.
+   Fetch the specified remote’s copy of the current branch and immediately merge it into the local copy.
 
 2. `git pull --no commit <remote>`
 
-    Similar to the default invocation, fetches the remote content but does not create a new merge commit.
+   Similar to the default invocation, fetches the remote content but does not create a new merge commit.
 
 3. `git pull --rebase <remote>`
 
-    Same as the previous pull Instead of using **git merge** to integrate the remote branch with the local one, use **git rebase**.
-    
- ## GIT COMMIT --AMEND
- 
- This option adds another level of functionality to the commit command. Passing this option will modify the last commit. Instead of creating a new commit, staged changes will be added to the previous commit. 
+   Same as the previous pull Instead of using **git merge** to integrate the remote branch with the local one, use **git rebase**.
+
+## GIT COMMIT --AMEND
+
+This option adds another level of functionality to the commit command. Passing this option will modify the last commit. Instead of creating a new commit, staged changes will be added to the previous commit.
+
+## GIT BRANCH
