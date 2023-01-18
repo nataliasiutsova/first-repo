@@ -14,3 +14,8 @@ const sayHelloLinting = (fName) => {
 };
 
 sayHelloLinting('Oksana');
+
+let user={
+  name="Ivan",
+  age=23
+};
